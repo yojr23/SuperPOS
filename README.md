@@ -1,31 +1,39 @@
-# 🏪 SuperPOS - Point of Sale & Inventory System  
+# 🏪 SuperPOS - Point of Sale & Inventory Management System  
 
-SuperPOS es un sistema integrado de **Punto de Venta (POS) y Gestión de Inventario**, desarrollado en **Java** con una interfaz gráfica intuitiva en **Swing**. Diseñado para supermercados y negocios minoristas, el sistema automatiza la venta de productos, la gestión de inventario y la aplicación de promociones.  
+🚀 **SuperPOS** is a **Java-based** Point of Sale (**POS**) and Inventory Management System designed for retail businesses and supermarkets. This project showcases expertise in **Object-Oriented Programming (OOP), software architecture, UI/UX design, and data management**.  
 
-## 🚀 Características Principales  
+## 🔹 Why is this project relevant?  
+This repository demonstrates:  
+✅ **Scalable software architecture** (modular, SOLID principles).  
+✅ **User-friendly UI/UX** using Java Swing.  
+✅ **Data persistence & management** via CSV files.  
+✅ **Real-world business logic** (loyalty system, automated promotions).  
+✅ **Automated system testing** for reliability.  
 
-### 📌 Sistema de Punto de Venta  
-- Registro de ventas con generación de facturas.  
-- Gestión de clientes con sistema de fidelización (puntos).  
-- Aplicación automática de promociones (descuentos, combos, regalos, puntos).  
+## 📌 Key Features  
 
-### 📦 Módulo de Inventario  
-- Administración de productos y lotes con alertas de stock.  
-- Reportes visuales de desempeño de productos.  
+### 💰 Point of Sale (POS) System  
+- **Invoice generation** with real-time transaction tracking.  
+- **Loyalty program** with a points-based system for customers.  
+- **Automated promotions** (discounts, bundles, gifts, and multiplier points).  
 
-### 🛠️ Tecnologías y Buenas Prácticas  
-- **Lenguaje:** Java 17+  
-- **Interfaz:** Java Swing  
-- **Persistencia de Datos:** Archivos CSV  
-- **Principios SOLID y modularización** para escalabilidad.  
+### 📦 Inventory Management  
+- **Product & batch tracking** with low-stock alerts.  
+- **Performance analytics** with visual reports.  
 
-## 📥 Instalación  
+## 🛠️ Technologies Used  
+- **Language:** Java 17+  
+- **UI Framework:** Java Swing  
+- **Data Handling:** CSV files (lightweight persistence)  
+- **Architecture:** OOP, SOLID principles, modular design  
 
-### 🔹 Requisitos  
-- JDK 17 o superior  
-- Git (opcional)  
+## 📥 Installation  
 
-### 🔹 Clonar el repositorio  
+### 🔹 Requirements  
+- JDK 17 or later  
+- Git (optional)  
+
+### 🔹 Clone the Repository  
 ```bash
 git clone https://github.com/yojr23/SuperPOS.git
 cd SuperPOS
