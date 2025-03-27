@@ -1,0 +1,26 @@
+package graphicInterface;
+
+import javax.swing.JPanel;
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import javax.swing.*;
+
+public class cajeroNorthPanel extends JPanel{
+	
+	private static final long serialVersionUID = 1L;
+	private BufferedImage image;
+	private JLabel label;
+
+	public cajeroNorthPanel() throws IOException {
+		this.image = ImageIO.read(new File("./data/banner.png"));
+		label = new JLabel(new ImageIcon(image));
+		add(label);
+	}
+	
+	
+	
+}
+
+
